@@ -15,7 +15,7 @@
 
 
   <!-- Include gazebo launch file rrbot_world.launch -->
-  <!--include file="$(find rrrbot_files)/rrrbot_world.launch" /-->
+  <include file="$(find rrrbot_files)/rrrbot_world.launch" />
 
 
   <!-- Run joint position controllers if true -->
